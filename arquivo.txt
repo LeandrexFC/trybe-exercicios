@@ -1,5 +1,6 @@
-AAAAAAAAA
-asasasasasa
+
+trybe-skills-updates
+
 O que eu vou aprender na Trybe:
 
 - Unix
@@ -9,4 +10,5 @@ O que eu vou aprender na Trybe:
 - CSS
 - C#
 - Soft Skills
-
+- Python
+ 
