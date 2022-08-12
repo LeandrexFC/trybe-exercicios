@@ -1,0 +1,41 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+  }
+  
+  li {
+    background-color:aquamarine ;    
+
+  }
+ 
+  .Cor {
+    background-color: blue;
+
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  body {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 40px;
+    text-decoration: underline;
+
+  }
+
+  #Preto {
+    color: black;
+  }
+
+  #Branco {
+    color: white;
+  }
+
+  #Azul {
+    color: blue;
+  }
