@@ -1,29 +1,61 @@
-div:hover {
-    border: 10px solid red;
-
+ol {
+    background-color: yellow;
 }
 
-.c1 {
-   background-color:  blue;
+ol .par  {
+    background-color: green;
 }
 
-.c2 {
-    background-color:  yellow;
+ol .impar {
+    text-transform: uppercase;
 }
 
-.c3 {
+h1, h3 {
+    color: red;
+}
+
+h1 em  {
+    font-size: 40px;
+    border: 1px solid cyan;
+}
+
+h3 em {
+    font-size: 40px;
+    border: 1px solid cyan;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.ling {
+  color: blue;
+}
+
+.ling2 {
+    color: pink;
+}
+
+.st:hover {
     background-color: orange;
-    font-size: 30px;
 }
 
-.c4 {
+.ws:hover {
+    background-color: greenyellow;
+}
+
+.md:hover {
     background-color: black;
 }
 
-.c5 {
-    background-color: cyan;
+.dev:hover {
+    background-color: yellow;
 }
 
-h3 {
-    color: blueviolet;
+.try:hover {
+    background-color: green;
 }
