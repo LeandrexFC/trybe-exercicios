@@ -1,16 +1,29 @@
-h1, p {
-    text-align: center;
+div:hover {
+    border: 10px solid red;
+
 }
 
-li:hover {
-    background-color: blue;
-    color: aliceblue;
+.c1 {
+   background-color:  blue;
 }
 
-li:active {
-    background-color: blueviolet;
+.c2 {
+    background-color:  yellow;
 }
 
-ol, ul {
-    list-style: none;
+.c3 {
+    background-color: orange;
+    font-size: 30px;
+}
+
+.c4 {
+    background-color: black;
+}
+
+.c5 {
+    background-color: cyan;
+}
+
+h3 {
+    color: blueviolet;
 }
