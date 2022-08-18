@@ -1,5 +1,6 @@
 body {
     text-align: justify;
+    background-color:#87CEFA ;
 
 }
 
@@ -7,8 +8,9 @@ header {
     position: fixed;
     background-color: #4169E1;
     width: 1300px;
-    height: 100px;
+    height: 90px;
     top: 0;
+    left: 0;
     padding-bottom: 30px;
     text-align: center;
     
@@ -16,7 +18,7 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header h1 {
@@ -42,29 +44,33 @@ footer {
     margin-bottom: 5px;
 }
 
+hr {
+    border: 0px;
+    border-top: 1px solid black;
+    
+}
+
 .navigation {
-    background-color: white;
     list-style: none;
     text-decoration: none;
 }
 
 #titulo {
-    margin-top: 200px;
+    margin-top: 160px;
     
 }
 
 .pag {
     display: inline;
-    margin-top: 150px;
-    padding: 160px;
     color: white;
+    margin-right: 300px;
 }
 
 .about {
     display: inline;
     text-align: center;
-    margin-top: 150px;
-    padding: 160px;
+    margin-right: 180px;
+
 }
 
 .contact {
@@ -74,3 +80,4 @@ footer {
     padding: 160px;
 
 }
+
