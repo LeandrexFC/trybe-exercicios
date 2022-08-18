@@ -1,10 +1,36 @@
 body {
     text-align: justify;
+
 }
 
+header {
+    position: fixed;
+    background-color: #4169E1;
+    width: 1300px;
+    height: 100px;
+    top: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    color: white;
+}
+
+nav ul {
+    color: white;
+        
+}
 
 h1 {
     font-size: 32px;
+    
 }
 
 h2 {
@@ -16,29 +42,35 @@ footer {
     margin-bottom: 5px;
 }
 
-nav {
-    text-align: center;
-    margin-left: 310px;
+.navigation {
+    background-color: white;
+    list-style: none;
+    text-decoration: none;
 }
 
-nav ul {
-    list-style: none;
-    
+#titulo {
+    margin-top: 200px;
     
 }
 
 .pag {
-    float: left;
-    margin-left: 0%;
+    display: inline;
+    margin-top: 150px;
+    padding: 160px;
+    color: white;
 }
 
 .about {
-    float: right;
-    margin-left: 0%px;
-    
+    display: inline;
+    text-align: center;
+    margin-top: 150px;
+    padding: 160px;
 }
 
 .contact {
-    display: inline;
-    
+    display: inline;    
+    text-align: center;
+    margin-top: 150px;
+    padding: 160px;
+
 }
