@@ -5,6 +5,13 @@ for (let index = 0; index < numbers.length; index +=1) {
     soma += numbers[index];
 }
 
-console.log(soma);
+let med = soma/numbers.length
+console.log(med);
 
+if (med >20) {
+    console.log("valor maior que 20")
+}
 
+else {
+    console.log("valor menor ou igual a 20")
+}
