@@ -1,10 +1,12 @@
-var num1 = 3;
-var num2 = 6;
+var ang1 = 60;
+var ang2 = 60;
+var ang3 = 60;
+const triangulo = 180;
 
-if (num1>num2) {
-    console.log ("Numero 1 é maior que número 2");
+if (ang1+ang2+ang3 === triangulo) {
+            console.log ("A aŕea dos angulos é igual a do triangulo");
 }
 
 else {
-    console.log ("Número 2 é maior que número 1");
+    console.log ("A área dos angulos não é igual a do triangulo");
 }
