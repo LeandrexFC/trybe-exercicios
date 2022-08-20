@@ -26,8 +26,15 @@ for (let i = 0; i < numbers.length; i += 1 ) {
 
 let num = []
 
-for (let i = 0; i <= 100; i += 1) {
+for (let i = 1; i <= 25; i += 1) {
     num.push(i)
 }
 
-console.log(num);
+//console.log(num);
+
+// 9. Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
+
+for (let index = 0; index < num.length; index += 1) {
+        console.log(num[index]/2)
+
+}
