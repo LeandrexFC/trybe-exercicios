@@ -1,10 +1,15 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maiorNum = 0
+let impar = []
+
 
 for(let i = 0; i < numbers.length; i += 1 ) {
-     if (numbers[i] > maiorNum ) {
-        maiorNum = numbers[i]
-     }                              
-}
+     if (numbers[i] % 2 !==0 ) {
 
-console.log(maiorNum)
+        impar.push(numbers[i])
+        console.log ("Número ímpar: ", numbers[i])
+
+        
+     }
+                             
+}
+console.log("assadsa", impar);
