@@ -19,11 +19,26 @@ for (let index = (word.length - 1); index >= 0; index--) {
 
 console.log(inverted)
 
+// 3 - Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
 
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let maiorPa = array[0];
+let menorPa = array[0];
 
+for(let i = 0; i < array.length; i+= 1) {
+    if (array[i].length > maiorPa.length) {
+        maiorPa = array[i]
+    } 
+}
 
+for(let i = 0; i < array.length; i+= 1) {
+    if (array[i].length < menorPa.length) {
+        menorPa = array[i]
+    }
+}
 
-
+console.log ("A maior palavra é", maiorPa, "com", maiorPa.length);
+console.log ("A menor palavra é", menorPa, "com", menorPa.length);
 
 
 
