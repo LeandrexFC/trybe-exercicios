@@ -16,5 +16,10 @@ console.log(info.recorrente)
 //3 - Faça um for/in que mostre todas as chaves do objeto. Valor esperado no console:
 
 for (let key in info) {
-    console.log([key])
+    //console.log([key])
+}
+
+//4 - Faça um novo for/in, mas agora mostre todos os valores das chaves do objeto. Valor esperado no console:
+for (let key in info) {
+    console.log(info[key])
 }
