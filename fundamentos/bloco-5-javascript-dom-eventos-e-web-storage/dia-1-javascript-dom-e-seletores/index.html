@@ -65,21 +65,30 @@
 
         function changeColor(elementos, cor) {
             document.querySelector(elementos).style.backgroundColor = cor;
-            
+
         }
         changeColor(".main-content", "green");
 
         function changeColor2(elementos, cor) {
             document.querySelector(elementos).style.backgroundColor = cor;
-            
+
         }
         changeColor2(".main-content .center-content", "white");
 
         function corrigeText() {
             const mudarTexto = document.getElementsByTagName("h1")[0];
-           mudarTexto.innerText = "Exercício 5.1 - Javascrip";
+            mudarTexto.innerText = "Exercício 5.1 - Javascrip";
         }
-         corrigeText();  
+        corrigeText();
+
+        function maior() {
+            const aumentarText = document.getElementsByTagName("p");
+            for (let i = 0; i < aumentarText.length; i += 1) {
+                aumentarText[i].style.textTransform = "uppercase";
+            }
+        }
+        maior()
+
 
     </script>
 </body>
