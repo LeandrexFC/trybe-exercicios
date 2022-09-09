@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:cadetblue ;
+}
+
+header {
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.pattern {
+    margin: 20px;
+    border: 0 none;
+}
+
+.info {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 80%;
+    padding: 50px;
+    margin: 0 auto 40px auto;
+}
+
+#full-name {
+    height: 20px;
+}
+
+#email {
+    width: 30%;
+    height: 20px;
+}
+
+.destiny {
+   padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+    height: 80px;
+
+}
+
+.why-you {
+    margin-bottom: 40px;
+    
+}
+
+#check1 {
+    margin-bottom: 10px;
+}
