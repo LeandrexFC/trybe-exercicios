@@ -75,3 +75,7 @@ function authorAge() {
 const newArray = (array) => array.map((elements) => `${elements.name} ${elements.genre} ${elements.author.name}`);
 
 const ageAuthor = books.map((elements) => `Autor: ${elements.author.name} Idade: ${elements.author.birthYear - 2020}`);
+
+const genreBook = books.filter((elements) => elements.genre === "Ficção Científica" || elements.genre === "Terror")
+
+console.log(genreBook)
