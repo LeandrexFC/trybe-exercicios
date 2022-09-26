@@ -63,7 +63,15 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
+function authorAge() {
+    return books.map(book => ({
+        author: book.author.name,
+        age:book.releaseYear - book.author.birthYear 
+    })).sort((obj1, obj2) => obj1.age - obj2.age);
+}
+
+//console.log(authorAge())
+
 const newArray = (array) => array.map((elements) => `${elements.name} ${elements.genre} ${elements.author.name}`);
 
-//console.log(newArray(books));
-
+const ageAuthor = books.map((elements) => `Autor: ${elements.author.name} Idade: ${elements.author.birthYear - 2020}`);
