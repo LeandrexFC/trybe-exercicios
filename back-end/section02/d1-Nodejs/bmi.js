@@ -11,6 +11,22 @@ function calculator() {
 
   const imc = calcularImc(peso, altura)
 
+  if (imc < 18,5 ) {
+    console.log('Abaixo do peso' + imc)
+    return;
+  } if ( imc >= 18.5 || imc < 25) {
+    return 'Peso normal'
+  } if (imc >= 25 || imc < 30 ) {
+    return 'Acima do peso (sobrepeso)'
+  } if (imc >= 30 || imc < 35 ) {
+    return 'Obesidade grau I'
+  } if (imc >= 35 || imc < 40 ) {
+    return 'Obesidade grau II'
+  } 
+  else {
+   return 'Obesidade graus III e IV '
+  }
+
   console.log(imc)
 }
 
